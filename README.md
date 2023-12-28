@@ -29,3 +29,10 @@ To use the weather data, you'll need an API key from the chosen weather service 
 2. **Store API Key:** Inside `secrets.dart`, define a variable to store your API key.
    ```dart
    const String apiKey = 'YOUR_API_KEY_HERE';
+
+# Preview 
+### Light Mode
+![](./light_theme.png)
+
+### Dark Mode
+![](./dark_theme.png)
