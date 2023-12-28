@@ -1,16 +1,31 @@
-# weather_app
+# Flutter Weather App
 
-A new Flutter project.
+This Flutter Weather App is designed to provide users with up-to-date weather information using a free API. It offers a clean interface and easy navigation to retrieve weather forecasts for different locations.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Current Weather:** Display current weather conditions for a specified location.
+- **5-Day Forecast:** Show a 5-day weather forecast for the selected location.
+- **Search Functionality:** Search for weather information by city name or ZIP code.
+- **User-Friendly Interface:** Intuitive design for easy navigation and readability.
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter:** Framework for building cross-platform mobile applications.
+- **API:** Utilizes a free weather API (mention the name/provider of the API).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+1. **Clone Repository:** `git clone https://github.com/your-username/your-repo.git`
+2. **Navigate to Project:** `cd your-repo`
+3. **Install Dependencies:** `flutter pub get`
+4. **Run the App:** `flutter run`
+
+## Configuration
+
+To use the weather data, you'll need an API key from the chosen weather service provider. Once you have the API key, follow these steps:
+
+1. **Create a Secrets File:** Create a `secrets.dart` file in the `lib` directory.
+2. **Store API Key:** Inside `secrets.dart`, define a variable to store your API key.
+   ```dart
+   const String apiKey = 'YOUR_API_KEY_HERE';
